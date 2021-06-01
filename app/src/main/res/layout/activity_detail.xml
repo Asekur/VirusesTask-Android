@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".DetailActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circlePhotoDetail"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:civ_border_color="@color/font"
+        app:civ_border_width="1dp"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonSelectPhoto"
+        app:layout_constraintVertical_bias="0.0"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/buttonGalleryDetail"
+        android:layout_width="0dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/detailShowGallary"
+        android:textColor="#E1E1E1"
+        android:textColorHint="#E1E1E1"
+        app:backgroundTint="#34972E"
+        app:layout_constraintEnd_toEndOf="@+id/textDetailMortality"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textDetailMortality"
+        app:layout_constraintTop_toBottomOf="@+id/videoView" />
+
+    <TextView
+        android:id="@+id/textDetailFullname"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginRight="70dp"
+        android:background="@drawable/border_spinner"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="10dp"
+        android:text="Fullname : Domain"
+        android:textAlignment="center"
+        android:textColor="@color/font"
+        android:textColorHint="@color/font"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/circlePhotoDetail"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/textDetailLocation"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/border_spinner"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="10dp"
+        android:text="Continent, Country"
+        android:textColor="@color/font"
+        android:textColorHint="@color/font"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/textDetailFullname"
+        app:layout_constraintStart_toStartOf="@+id/textDetailFullname"
+        app:layout_constraintTop_toBottomOf="@+id/textDetailFullname" />
+
+    <TextView
+        android:id="@+id/textDetailYear"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/border_spinner"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="10dp"
+        android:text="Year"
+        android:textColor="@color/font"
+        android:textColorHint="@color/font"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/textDetailLocation"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textDetailLocation"
+        app:layout_constraintTop_toBottomOf="@+id/textDetailLocation" />
+
+    <TextView
+        android:id="@+id/textDetailMortality"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/border_spinner"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="10dp"
+        android:text="Mortality"
+        android:textColor="@color/font"
+        android:textColorHint="@color/font"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/textDetailYear"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textDetailYear"
+        app:layout_constraintTop_toBottomOf="@+id/textDetailYear" />
+
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="0dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/textDetailMortality"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/textDetailMortality"
+        app:layout_constraintTop_toBottomOf="@+id/textDetailMortality" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

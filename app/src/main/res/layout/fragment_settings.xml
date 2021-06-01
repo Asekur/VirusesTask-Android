@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".SettingsFragment">
+
+    <Button
+        android:id="@+id/buttonLogout"
+        android:layout_width="0dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:text="@string/settingsLogout"
+        android:textColor="#E1E1E1"
+        android:textColorHint="#E1E1E1"
+        app:backgroundTint="#34972E"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonEng" />
+
+    <Button
+        android:id="@+id/buttonEng"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/rounded_buttons"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="@string/settingsEng"
+        android:textColor="#E1E1E1"
+        android:textColorHint="#E1E1E1"
+        app:backgroundTint="#34972E"
+        app:layout_constraintEnd_toEndOf="@+id/textViewFont"
+        app:layout_constraintStart_toStartOf="@+id/textViewFont"
+        app:layout_constraintTop_toBottomOf="@+id/textViewFont" />
+
+    <Button
+        android:id="@+id/buttonRus"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/rounded_buttons"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="@string/settingsRus"
+        android:textColor="#E1E1E1"
+        android:textColorHint="#E1E1E1"
+        app:backgroundTint="#34972E"
+        app:layout_constraintEnd_toEndOf="@+id/seekBarMode"
+        app:layout_constraintStart_toStartOf="@+id/seekBarSize"
+        app:layout_constraintTop_toBottomOf="@+id/seekBarSize"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textViewLightmode"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="211dp"
+        android:layout_marginRight="211dp"
+        android:background="@drawable/border_spinner"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="10dp"
+        android:text="@string/settingsLight"
+        android:textColor="@color/font"
+        android:textColorHint="@color/font"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewFont"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/border_spinner"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="10dp"
+        android:text="@string/settingsFont"
+        android:textColor="@color/font"
+        android:textColorHint="@color/font"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/textViewLightmode"
+        app:layout_constraintStart_toStartOf="@+id/textViewLightmode"
+        app:layout_constraintTop_toBottomOf="@+id/textViewLightmode" />
+
+    <SeekBar
+        android:id="@+id/seekBarMode"
+        style="@style/Widget.AppCompat.SeekBar.Discrete"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="120dp"
+        android:max="1"
+        android:progress="0"
+        android:progressBackgroundTint="@color/font"
+        android:progressTint="@color/font"
+        android:thumb="@drawable/seek_bar_slider"
+        app:layout_constraintEnd_toEndOf="@+id/buttonLogout"
+        app:layout_constraintStart_toEndOf="@+id/textViewLightmode"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <SeekBar
+        android:id="@+id/seekBarSize"
+        style="@style/Widget.AppCompat.SeekBar"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        android:progressBackgroundTint="@color/font"
+        android:progressTint="@color/font"
+        android:max="1"
+        android:progress="0"
+        android:thumb="@drawable/seek_bar_slider"
+        app:layout_constraintBottom_toBottomOf="@+id/textViewFont"
+        app:layout_constraintEnd_toEndOf="@+id/seekBarMode"
+        app:layout_constraintStart_toStartOf="@+id/seekBarMode"
+        app:layout_constraintTop_toBottomOf="@+id/seekBarMode" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

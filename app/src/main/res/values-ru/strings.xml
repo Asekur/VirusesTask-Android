@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Вирусы</string>
+    <string name="title_activity_tab">TabActivity</string>
+
+    <string name="detailShowGallary">Показать галерею</string>
+    <string name="editFullname">Имя</string>
+    <string name="editContinent">Континент</string>
+    <string name="editCountry">Страна</string>
+    <string name="editDomain">Домен</string>
+    <string name="editMortality">Смертность</string>
+    <string name="editYear">Год</string>
+    <string name="editVideolik">Видеоссылка</string>
+    <string name="editPassword">Пароль</string>
+    <string name="filterYear">Год (более)</string>
+    <string name="filterMortality">Смертность (более)</string>
+    <string name="filterUse">Применить</string>
+    <string name="filterVirus">Вирус</string>
+    <string name="filterBacteria">Бактерия</string>
+    <string name="authAuthorize">Авторизация</string>
+    <string name="authTextReg">Еще не создан аккаунт?</string>
+    <string name="regSelect">Выберите фото</string>
+    <string name="regRegister">Регистрация</string>
+    <string name="tab_text_1">Вирусы</string>
+    <string name="tab_text_2">Карта</string>
+    <string name="tab_text_3">Настройки</string>
+    <string name="settingsLogout">Выход</string>
+    <string name="settingsLight">Люмус</string>
+    <string name="settingsFont">Шрифт</string>
+    <string name="settingsEng">Инглиш</string>
+    <string name="settingsRus">Русский</string>
+</resources>

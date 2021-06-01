@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "369800920745",
+    "firebase_url": "https://viruses-5d58d-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "viruses-5d58d",
+    "storage_bucket": "viruses-5d58d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:369800920745:android:9045b81ee682e093c433b8",
+        "android_client_info": {
+          "package_name": "com.example.viruses"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "369800920745-r6i3f0herbd51i7do68av6v8hjhaas5g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYoKuO7A71EEUyKuCEjPV8KJw1s1kBfsc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "369800920745-r6i3f0herbd51i7do68av6v8hjhaas5g.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "369800920745-1q85cm7cinf5ve13264ks1elm2sbgc8f.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.viruses"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

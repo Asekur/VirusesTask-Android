@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Viruses</string>
+    <string name="title_activity_tab">TabActivity</string>
+
+    <string name="detailShowGallary">Show my gallery</string>
+    <string name="editFullname">Fullname</string>
+    <string name="editContinent">Continent</string>
+    <string name="editCountry">Country</string>
+    <string name="editDomain">Domain</string>
+    <string name="editMortality">Mortality</string>
+    <string name="editYear">Year</string>
+    <string name="editVideolik">Videolink</string>
+    <string name="editPassword">Password</string>
+    <string name="filterYear">Year (more)</string>
+    <string name="filterMortality">Mortality (more)</string>
+    <string name="filterUse">Use filters</string>
+    <string name="filterVirus">Virus</string>
+    <string name="filterBacteria">Bacteria</string>
+    <string name="authAuthorize">Authorize</string>
+    <string name="authTextReg">Don\'t have an account?</string>
+    <string name="regSelect">Select photo</string>
+    <string name="regRegister">Register</string>
+    <string name="tab_text_1">ITEMS</string>
+    <string name="tab_text_2">MAP</string>
+    <string name="tab_text_3">SETTINGS</string>
+    <string name="settingsLogout">Log out</string>
+    <string name="settingsLight">Lightmode</string>
+    <string name="settingsFont">Font</string>
+    <string name="settingsEng">English</string>
+    <string name="settingsRus">Rasha</string>
+
+</resources>
